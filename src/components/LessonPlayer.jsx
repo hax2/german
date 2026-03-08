@@ -1,14 +1,21 @@
 import React, { useState, useEffect } from 'react';
 import './LessonPlayer.css';
 
-const LessonPlayer = ({ module, onBack }) => {
+const LessonPlayer = ({ module, onBack, onNextModule, isLast }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
+
+  useEffect(() => {
+    setCurrentIndex(0);
+  }, [module.id]);
+
   const [germanRevealed, setGermanRevealed] = useState(false);
   const [englishRevealed, setEnglishRevealed] = useState(false);
   const [activeWordIndex, setActiveWordIndex] = useState(null);
+  const [countdown, setCountdown] = useState(null);
 
   const sentence = module.sentences[currentIndex];
   const isFinished = currentIndex >= module.sentences.length;
+
 
   useEffect(() => {
     // Reset states when changing sentence
@@ -26,6 +33,26 @@ const LessonPlayer = ({ module, onBack }) => {
     }
   }, [currentIndex, sentence]);
 
+  useEffect(() => {
+    if (isFinished && !isLast) {
+      setCountdown(3);
+      const timer = setInterval(() => {
+        setCountdown(prev => {
+          if (prev <= 1) {
+            clearInterval(timer);
+            onNextModule();
+            return null;
+          }
+          return prev - 1;
+        });
+      }, 1000);
+      return () => clearInterval(timer);
+    } else {
+      setCountdown(null);
+    }
+  }, [isFinished, isLast, onNextModule]);
+
+
   const playAudio = () => {
     if (!sentence) return;
     window.speechSynthesis.cancel(); // clear queue
@@ -38,6 +65,13 @@ const LessonPlayer = ({ module, onBack }) => {
   const handleNext = () => {
     setCurrentIndex(prev => prev + 1);
   };
+
+  const handlePrevious = () => {
+    if (currentIndex > 0) {
+      setCurrentIndex(prev => prev - 1);
+    }
+  };
+
 
   const getMeaning = (word) => {
     // Strip punctuation to match the dictionary keys
@@ -52,7 +86,16 @@ const LessonPlayer = ({ module, onBack }) => {
         <div className="finished-icon">🎉</div>
         <h2 className="finished-title">Module Completed!</h2>
         <p className="finished-subtitle">You've successfully finished all sentences in this module.</p>
-        <button className="btn-primary" onClick={onBack}>Back to Modules</button>
+        <div className="finished-actions">
+          <button className="btn-secondary" onClick={handlePrevious}>← Back to Last Sentence</button>
+          <button className="btn-secondary" onClick={onBack}>Back to Modules</button>
+
+          {!isLast && (
+            <button className="btn-primary" onClick={onNextModule}>
+              Next Module {countdown !== null ? `(${countdown})` : ''} →
+            </button>
+          )}
+        </div>
       </div>
     );
   }
@@ -128,13 +171,19 @@ const LessonPlayer = ({ module, onBack }) => {
         {/* Actions Area */}
         <div className="actions-area">
           <div className="actions-row">
-            <button className="btn-secondary" onClick={handleNext}>
-              I understood it
+            <button 
+              className="btn-secondary" 
+              onClick={handlePrevious}
+              disabled={currentIndex === 0}
+            >
+              ← Previous
             </button>
             <button className="btn-primary" onClick={handleNext}>
-              Next Sentence →
+              {currentIndex === module.sentences.length - 1 ? 'Finish Module' : 'Next Sentence →'}
             </button>
           </div>
+
+
           
           <div className="translation-area">
             {!englishRevealed ? (
