@@ -6,12 +6,16 @@ const LessonPlayer = ({ module, onBack, onNextModule, isLast }) => {
 
   useEffect(() => {
     setCurrentIndex(0);
+    setRevealedMeanings(new Set());
+    setAllRevealed(false);
   }, [module.id]);
 
   const [germanRevealed, setGermanRevealed] = useState(false);
   const [englishRevealed, setEnglishRevealed] = useState(false);
   const [activeWordIndex, setActiveWordIndex] = useState(null);
   const [countdown, setCountdown] = useState(null);
+  const [revealedMeanings, setRevealedMeanings] = useState(new Set());
+  const [allRevealed, setAllRevealed] = useState(false);
 
   const sentence = module.sentences[currentIndex];
   const isFinished = currentIndex >= module.sentences.length;
@@ -80,12 +84,106 @@ const LessonPlayer = ({ module, onBack, onNextModule, isLast }) => {
     return meanings[cleanWord] || meanings[cleanWord.toLowerCase()] || meanings[cleanWord.replace(/s$/, '')] || null;
   };
 
+  const getModuleVocabulary = () => {
+    const vocab = {};
+    module.sentences.forEach(s => {
+      if (s.wordMeanings) {
+        Object.entries(s.wordMeanings).forEach(([word, meaning]) => {
+          const cleanWord = word.replace(/[.,¿?¡!]/g, '');
+          // Deduplicate by lowercase but keep the first version we find for display
+          const lowerWord = cleanWord.toLowerCase();
+          if (!vocab[lowerWord]) {
+            vocab[lowerWord] = { original: cleanWord, meaning: meaning };
+          }
+        });
+      }
+    });
+    return Object.values(vocab).sort((a, b) => a.original.localeCompare(b.original));
+  };
+
+  const speakWord = (word) => {
+    window.speechSynthesis.cancel();
+    const utterance = new SpeechSynthesisUtterance(word);
+    utterance.lang = 'de-DE';
+    utterance.rate = 0.85;
+    window.speechSynthesis.speak(utterance);
+  };
+
   if (isFinished) {
+    const vocabulary = getModuleVocabulary();
+    
+    const handleWordClick = (idx, word) => {
+      speakWord(word);
+      setRevealedMeanings(prev => {
+        const next = new Set(prev);
+        next.add(idx);
+        return next;
+      });
+    };
+
+    const toggleRevealAll = () => {
+      if (allRevealed) {
+        setRevealedMeanings(new Set());
+      } else {
+        const allIndices = new Set(vocabulary.map((_, i) => i));
+        setRevealedMeanings(allIndices);
+      }
+      setAllRevealed(!allRevealed);
+    };
+
     return (
       <div className="lesson-finished animate-fade-in glass-panel">
         <div className="finished-icon">🎉</div>
         <h2 className="finished-title">Module Completed!</h2>
         <p className="finished-subtitle">You've successfully finished all sentences in this module.</p>
+        
+        <div className="vocabulary-summary animate-fade-in">
+          <div className="vocab-header-flex">
+            <h3>Module Vocabulary</h3>
+            <button className="btn-text-reveal" onClick={toggleRevealAll}>
+              {allRevealed ? 'Hide All' : 'Reveal All'}
+            </button>
+          </div>
+          <div className="vocab-table-container">
+            <table className="vocab-table">
+              <thead>
+                <tr>
+                  <th>Word</th>
+                  <th>Meaning</th>
+                </tr>
+              </thead>
+              <tbody>
+                {vocabulary.map((item, idx) => {
+                  const isRevealed = revealedMeanings.has(idx);
+                  return (
+                    <tr 
+                      key={idx} 
+                      onClick={() => handleWordClick(idx, item.original)}
+                      className={`vocab-row ${isRevealed ? 'revealed' : ''}`}
+                      title="Click to hear pronunciation and see meaning"
+                    >
+                      <td className="vocab-word-cell">
+                        <div className="vocab-word-flex">
+                          <span className="vocab-word">{item.original}</span>
+                          <svg className="speaker-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor">
+                            <path d="M3 9v6h4l5 5V4L7 9H3zm13.5 3c0-1.77-1.02-3.29-2.5-4.03v8.05c1.48-.73 2.5-2.25 2.5-4.02zM14 3.23v2.06c2.89.86 5 3.54 5 6.71s-2.11 5.85-5 6.71v2.06c4.01-.91 7-4.49 7-8.77s-2.99-7.86-7-8.77z"/>
+                          </svg>
+                        </div>
+                      </td>
+                      <td className="vocab-meaning-cell">
+                        <span className={`meaning-text ${isRevealed ? 'visible' : 'hidden'}`}>
+                          {item.meaning}
+                        </span>
+                        {!isRevealed && <span className="meaning-placeholder">Click to see</span>}
+                      </td>
+                    </tr>
+                  );
+                })}
+              </tbody>
+            </table>
+          </div>
+        </div>
+
         <div className="finished-actions">
           <button className="btn-secondary" onClick={handlePrevious}>← Back to Last Sentence</button>
           <button className="btn-secondary" onClick={onBack}>Back to Modules</button>
