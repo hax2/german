@@ -1,0 +1,1305 @@
+[
+  {
+    "id": "module-1",
+    "title": "Chapter 1: Greetings & Basics",
+    "description": "Learn to say hello, goodbye, and basic politeness in German.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m1-s1",
+        "german": "Hallo.",
+        "english": "Hello.",
+        "wordMeanings": {
+          "Hallo": "hello"
+        }
+      },
+      {
+        "id": "m1-s2",
+        "german": "Guten Morgen.",
+        "english": "Good morning.",
+        "wordMeanings": {
+          "Guten": "good",
+          "Morgen": "morning"
+        }
+      },
+      {
+        "id": "m1-s3",
+        "german": "Guten Tag.",
+        "english": "Good day / Good afternoon.",
+        "wordMeanings": {
+          "Guten": "good",
+          "Tag": "day"
+        }
+      },
+      {
+        "id": "m1-s4",
+        "german": "Guten Abend.",
+        "english": "Good evening.",
+        "wordMeanings": {
+          "Guten": "good",
+          "Abend": "evening"
+        }
+      },
+      {
+        "id": "m1-s5",
+        "german": "Gute Nacht.",
+        "english": "Good night.",
+        "wordMeanings": {
+          "Gute": "good",
+          "Nacht": "night"
+        }
+      },
+      {
+        "id": "m1-s6",
+        "german": "Tschüss.",
+        "english": "Bye.",
+        "wordMeanings": {
+          "Tschüss": "bye"
+        }
+      },
+      {
+        "id": "m1-s7",
+        "german": "Auf Wiedersehen.",
+        "english": "Goodbye.",
+        "wordMeanings": {
+          "Auf": "on / until",
+          "Wiedersehen": "seeing again"
+        }
+      },
+      {
+        "id": "m1-s8",
+        "german": "Bitte.",
+        "english": "Please / You're welcome.",
+        "wordMeanings": {
+          "Bitte": "please / you're welcome"
+        }
+      },
+      {
+        "id": "m1-s9",
+        "german": "Danke.",
+        "english": "Thank you.",
+        "wordMeanings": {
+          "Danke": "thank you"
+        }
+      },
+      {
+        "id": "m1-s10",
+        "german": "Danke schön.",
+        "english": "Thank you very much.",
+        "wordMeanings": {
+          "Danke": "thank you",
+          "schön": "beautifully / very much"
+        }
+      },
+      {
+        "id": "m1-s11",
+        "german": "Bitte schön.",
+        "english": "You're very welcome / Here you go.",
+        "wordMeanings": {
+          "Bitte": "please / you're welcome",
+          "schön": "beautifully / very much"
+        }
+      },
+      {
+        "id": "m1-s12",
+        "german": "Ja.",
+        "english": "Yes.",
+        "wordMeanings": {
+          "Ja": "yes"
+        }
+      },
+      {
+        "id": "m1-s13",
+        "german": "Nein.",
+        "english": "No.",
+        "wordMeanings": {
+          "Nein": "no"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-2",
+    "title": "Chapter 2: Introductions & Pronouns",
+    "description": "Learn to introduce yourself and use basic personal pronouns with the verb 'sein' (to be).",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m2-s1",
+        "german": "Ich bin Anna.",
+        "english": "I am Anna.",
+        "wordMeanings": {
+          "Ich": "I",
+          "bin": "am",
+          "Anna": "Anna"
+        }
+      },
+      {
+        "id": "m2-s2",
+        "german": "Bist du Frank?",
+        "english": "Are you Frank?",
+        "wordMeanings": {
+          "Bist": "are",
+          "du": "you (singular, informal)",
+          "Frank": "Frank"
+        }
+      },
+      {
+        "id": "m2-s3",
+        "german": "Ja, ich bin Frank.",
+        "english": "Yes, I am Frank.",
+        "wordMeanings": {
+          "Ja": "yes",
+          "ich": "I",
+          "bin": "am",
+          "Frank": "Frank"
+        }
+      },
+      {
+        "id": "m2-s4",
+        "german": "Wer bist du?",
+        "english": "Who are you?",
+        "wordMeanings": {
+          "Wer": "who",
+          "bist": "are",
+          "du": "you"
+        }
+      },
+      {
+        "id": "m2-s5",
+        "german": "Er ist Student.",
+        "english": "He is a student.",
+        "wordMeanings": {
+          "Er": "he",
+          "ist": "is",
+          "Student": "student (male)"
+        }
+      },
+      {
+        "id": "m2-s6",
+        "german": "Sie ist Studentin.",
+        "english": "She is a student.",
+        "wordMeanings": {
+          "Sie": "she",
+          "ist": "is",
+          "Studentin": "student (female)"
+        }
+      },
+      {
+        "id": "m2-s7",
+        "german": "Es ist kalt.",
+        "english": "It is cold.",
+        "wordMeanings": {
+          "Es": "it",
+          "ist": "is",
+          "kalt": "cold"
+        }
+      },
+      {
+        "id": "m2-s8",
+        "german": "Wir sind Freunde.",
+        "english": "We are friends.",
+        "wordMeanings": {
+          "Wir": "we",
+          "sind": "are",
+          "Freunde": "friends"
+        }
+      },
+      {
+        "id": "m2-s9",
+        "german": "Seid ihr Freunde?",
+        "english": "Are you (plural) friends?",
+        "wordMeanings": {
+          "Seid": "are",
+          "ihr": "you (plural, informal)",
+          "Freunde": "friends"
+        }
+      },
+      {
+        "id": "m2-s10",
+        "german": "Sie sind hier.",
+        "english": "They are here.",
+        "wordMeanings": {
+          "Sie": "they / you (formal)",
+          "sind": "are",
+          "hier": "here"
+        }
+      },
+      {
+        "id": "m2-s11",
+        "german": "Wie heißen Sie?",
+        "english": "What is your name? (formal)",
+        "wordMeanings": {
+          "Wie": "how",
+          "heißen": "are called",
+          "Sie": "you (formal)"
+        }
+      },
+      {
+        "id": "m2-s12",
+        "german": "Ich heiße Thomas.",
+        "english": "My name is Thomas. (I am called Thomas.)",
+        "wordMeanings": {
+          "Ich": "I",
+          "heiße": "am called",
+          "Thomas": "Thomas"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-3",
+    "title": "Chapter 3: Nouns & Genders (Nominative)",
+    "description": "German has three genders: masculine (der), feminine (die), and neuter (das). Learn to use them in the basic nominative case.",
+    "level": "Beginner",
+    "sentences": [
+      {
+        "id": "m3-s1",
+        "german": "Der Mann ist groß.",
+        "english": "The man is tall.",
+        "wordMeanings": {
+          "Der": "the (masculine)",
+          "Mann": "man",
+          "ist": "is",
+          "groß": "tall / big"
+        }
+      },
+      {
+        "id": "m3-s2",
+        "german": "Die Frau ist klein.",
+        "english": "The woman is small.",
+        "wordMeanings": {
+          "Die": "the (feminine)",
+          "Frau": "woman",
+          "ist": "is",
+          "klein": "small"
+        }
+      },
+      {
+        "id": "m3-s3",
+        "german": "Das Kind ist hier.",
+        "english": "The child is here.",
+        "wordMeanings": {
+          "Das": "the (neuter)",
+          "Kind": "child",
+          "ist": "is",
+          "hier": "here"
+        }
+      },
+      {
+        "id": "m3-s4",
+        "german": "Ein Mann kommt.",
+        "english": "A man is coming.",
+        "wordMeanings": {
+          "Ein": "a (masculine)",
+          "Mann": "man",
+          "kommt": "comes / is coming"
+        }
+      },
+      {
+        "id": "m3-s5",
+        "german": "Eine Frau geht.",
+        "english": "A woman is going.",
+        "wordMeanings": {
+          "Eine": "a (feminine)",
+          "Frau": "woman",
+          "geht": "goes / is going"
+        }
+      },
+      {
+        "id": "m3-s6",
+        "german": "Ein Kind spielt.",
+        "english": "A child is playing.",
+        "wordMeanings": {
+          "Ein": "a (neuter)",
+          "Kind": "child",
+          "spielt": "plays / is playing"
+        }
+      },
+      {
+        "id": "m3-s7",
+        "german": "Ist der Apfel gut?",
+        "english": "Is the apple good?",
+        "wordMeanings": {
+          "Ist": "is",
+          "der": "the (masc)",
+          "Apfel": "apple",
+          "gut": "good"
+        }
+      },
+      {
+        "id": "m3-s8",
+        "german": "Der Hund ist schnell.",
+        "english": "The dog is fast.",
+        "wordMeanings": {
+          "Der": "the (masc)",
+          "Hund": "dog",
+          "ist": "is",
+          "schnell": "fast"
+        }
+      },
+      {
+        "id": "m3-s9",
+        "german": "Die Katze ist schön.",
+        "english": "The cat is beautiful.",
+        "wordMeanings": {
+          "Die": "the (fem)",
+          "Katze": "cat",
+          "ist": "is",
+          "schön": "beautiful"
+        }
+      },
+      {
+        "id": "m3-s10",
+        "german": "Das Auto ist neu.",
+        "english": "The car is new.",
+        "wordMeanings": {
+          "Das": "the (neuter)",
+          "Auto": "car",
+          "ist": "is",
+          "neu": "new"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-4",
+    "title": "Chapter 4: The Accusative Case",
+    "description": "The direct object requires the accusative case. Notice how 'der' changes to 'den', but 'die' and 'das' stay the same.",
+    "level": "Intermediate",
+    "sentences": [
+      {
+        "id": "m4-s1",
+        "german": "Ich habe den Apfel.",
+        "english": "I have the apple.",
+        "wordMeanings": {
+          "Ich": "I",
+          "habe": "have",
+          "den": "the (masculine accusative)",
+          "Apfel": "apple"
+        }
+      },
+      {
+        "id": "m4-s2",
+        "german": "Hast du einen Hund?",
+        "english": "Do you have a dog?",
+        "wordMeanings": {
+          "Hast": "have",
+          "du": "you",
+          "einen": "a (masculine accusative)",
+          "Hund": "dog"
+        }
+      },
+      {
+        "id": "m4-s3",
+        "german": "Ich sehe die Frau.",
+        "english": "I see the woman.",
+        "wordMeanings": {
+          "Ich": "I",
+          "sehe": "see",
+          "die": "the (feminine accusative)",
+          "Frau": "woman"
+        }
+      },
+      {
+        "id": "m4-s4",
+        "german": "Er kauft das Auto.",
+        "english": "He buys the car.",
+        "wordMeanings": {
+          "Er": "he",
+          "kauft": "buys",
+          "das": "the (neuter accusative)",
+          "Auto": "car"
+        }
+      },
+      {
+        "id": "m4-s5",
+        "german": "Wir brauchen einen Tisch.",
+        "english": "We need a table.",
+        "wordMeanings": {
+          "Wir": "we",
+          "brauchen": "need",
+          "einen": "a (masculine accusative)",
+          "Tisch": "table"
+        }
+      },
+      {
+        "id": "m4-s6",
+        "german": "Ich trinke den Kaffee.",
+        "english": "I drink the coffee.",
+        "wordMeanings": {
+          "Ich": "I",
+          "trinke": "drink",
+          "den": "the (masculine accusative)",
+          "Kaffee": "coffee"
+        }
+      },
+      {
+        "id": "m4-s7",
+        "german": "Sie isst einen Apfel.",
+        "english": "She is eating an apple.",
+        "wordMeanings": {
+          "Sie": "she",
+          "isst": "eats",
+          "einen": "an (masculine accusative)",
+          "Apfel": "apple"
+        }
+      },
+      {
+        "id": "m4-s8",
+        "german": "Liest du das Buch?",
+        "english": "Are you reading the book?",
+        "wordMeanings": {
+          "Liest": "read",
+          "du": "you",
+          "das": "the (neuter accusative)",
+          "Buch": "book"
+        }
+      },
+      {
+        "id": "m4-s9",
+        "german": "Ich liebe dich.",
+        "english": "I love you.",
+        "wordMeanings": {
+          "Ich": "I",
+          "liebe": "love",
+          "dich": "you (accusative)"
+        }
+      },
+      {
+        "id": "m4-s10",
+        "german": "Er fragt mich.",
+        "english": "He asks me.",
+        "wordMeanings": {
+          "Er": "he",
+          "fragt": "asks",
+          "mich": "me (accusative)"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-5",
+    "title": "Chapter 5: Locations & Places",
+    "description": "Learn to state where something is or where you are going.",
+    "level": "Intermediate",
+    "sentences": [
+      {
+        "id": "m5-s1",
+        "german": "Wo bist du?",
+        "english": "Where are you?",
+        "wordMeanings": {
+          "Wo": "where",
+          "bist": "are",
+          "du": "you"
+        }
+      },
+      {
+        "id": "m5-s2",
+        "german": "Ich bin hier.",
+        "english": "I am here.",
+        "wordMeanings": {
+          "Ich": "I",
+          "bin": "am",
+          "hier": "here"
+        }
+      },
+      {
+        "id": "m5-s3",
+        "german": "Ich bin zu Hause.",
+        "english": "I am at home.",
+        "wordMeanings": {
+          "Ich": "I",
+          "bin": "am",
+          "zu": "at / to",
+          "Hause": "home"
+        }
+      },
+      {
+        "id": "m5-s4",
+        "german": "Ich bin in der Schule.",
+        "english": "I am at school.",
+        "wordMeanings": {
+          "Ich": "I",
+          "bin": "am",
+          "in": "in",
+          "der": "the (dative feminine)",
+          "Schule": "school"
+        }
+      },
+      {
+        "id": "m5-s5",
+        "german": "Wo ist der Bahnhof?",
+        "english": "Where is the train station?",
+        "wordMeanings": {
+          "Wo": "where",
+          "ist": "is",
+          "der": "the",
+          "Bahnhof": "train station"
+        }
+      },
+      {
+        "id": "m5-s6",
+        "german": "Der Bahnhof ist da drüben.",
+        "english": "The train station is over there.",
+        "wordMeanings": {
+          "Der": "the",
+          "Bahnhof": "train station",
+          "ist": "is",
+          "da": "there",
+          "drüben": "over (there)"
+        }
+      },
+      {
+        "id": "m5-s7",
+        "german": "Ist die Bank in der Nähe?",
+        "english": "Is the bank nearby?",
+        "wordMeanings": {
+          "Ist": "is",
+          "die": "the",
+          "Bank": "bank",
+          "in": "in",
+          "der": "the",
+          "Nähe": "vicinity / near"
+        }
+      },
+      {
+        "id": "m5-s8",
+        "german": "Ich gehe nach Hause.",
+        "english": "I am going home.",
+        "wordMeanings": {
+          "Ich": "I",
+          "gehe": "go",
+          "nach": "to / towards",
+          "Hause": "home"
+        }
+      },
+      {
+        "id": "m5-s9",
+        "german": "Wir gehen in den Park.",
+        "english": "We are going into the park.",
+        "wordMeanings": {
+          "Wir": "we",
+          "gehen": "go",
+          "in": "into",
+          "den": "the (accusative masc)",
+          "Park": "park"
+        }
+      },
+      {
+        "id": "m5-s10",
+        "german": "Er ist im Supermarkt.",
+        "english": "He is in the supermarket.",
+        "wordMeanings": {
+          "Er": "he",
+          "ist": "is",
+          "im": "in the (in + dem)",
+          "Supermarkt": "supermarket"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-6",
+    "title": "Chapter 6: Negation ('nicht' vs. 'kein')",
+    "description": "Use 'kein' to negate nouns with indefinite articles ('a'/'an') or no article. Use 'nicht' for everything else.",
+    "level": "Intermediate",
+    "sentences": [
+      {
+        "id": "m6-s1",
+        "german": "Ich bin nicht müde.",
+        "english": "I am not tired.",
+        "wordMeanings": {
+          "Ich": "I",
+          "bin": "am",
+          "nicht": "not",
+          "müde": "tired"
+        }
+      },
+      {
+        "id": "m6-s2",
+        "german": "Das ist nicht gut.",
+        "english": "That is not good.",
+        "wordMeanings": {
+          "Das": "that",
+          "ist": "is",
+          "nicht": "not",
+          "gut": "good"
+        }
+      },
+      {
+        "id": "m6-s3",
+        "german": "Ich habe keinen Kaffee.",
+        "english": "I don't have (any) coffee.",
+        "wordMeanings": {
+          "Ich": "I",
+          "habe": "have",
+          "keinen": "no / not any (masc acc)",
+          "Kaffee": "coffee"
+        }
+      },
+      {
+        "id": "m6-s4",
+        "german": "Hast du keine Zeit?",
+        "english": "Do you have no time?",
+        "wordMeanings": {
+          "Hast": "have",
+          "du": "you",
+          "keine": "no / not any (fem acc)",
+          "Zeit": "time"
+        }
+      },
+      {
+        "id": "m6-s5",
+        "german": "Das ist kein Apfel.",
+        "english": "That is not an apple.",
+        "wordMeanings": {
+          "Das": "that",
+          "ist": "is",
+          "kein": "no / not a (masc nom)",
+          "Apfel": "apple"
+        }
+      },
+      {
+        "id": "m6-s6",
+        "german": "Wir gehen nicht.",
+        "english": "We are not going.",
+        "wordMeanings": {
+          "Wir": "we",
+          "gehen": "go",
+          "nicht": "not"
+        }
+      },
+      {
+        "id": "m6-s7",
+        "german": "Ich verstehe nicht.",
+        "english": "I don't understand.",
+        "wordMeanings": {
+          "Ich": "I",
+          "verstehe": "understand",
+          "nicht": "not"
+        }
+      },
+      {
+        "id": "m6-s8",
+        "german": "Er ist kein Student.",
+        "english": "He is not a student.",
+        "wordMeanings": {
+          "Er": "he",
+          "ist": "is",
+          "kein": "no / not a (masc nom)",
+          "Student": "student"
+        }
+      },
+      {
+        "id": "m6-s9",
+        "german": "Das Auto ist nicht neu.",
+        "english": "The car is not new.",
+        "wordMeanings": {
+          "Das": "the",
+          "Auto": "car",
+          "ist": "is",
+          "nicht": "not",
+          "neu": "new"
+        }
+      },
+      {
+        "id": "m6-s10",
+        "german": "Ich brauche kein Buch.",
+        "english": "I do not need a book.",
+        "wordMeanings": {
+          "Ich": "I",
+          "brauche": "need",
+          "kein": "no / not a (neut acc)",
+          "Buch": "book"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-7",
+    "title": "Chapter 7: Plurals",
+    "description": "Learn how nouns change in the plural correctly. Note: The definite article for all plural nouns is 'die'.",
+    "level": "Intermediate",
+    "sentences": [
+      {
+        "id": "m7-s1",
+        "german": "Die Männer sind hier.",
+        "english": "The men are here.",
+        "wordMeanings": {
+          "Die": "the (plural)",
+          "Männer": "men",
+          "sind": "are",
+          "hier": "here"
+        }
+      },
+      {
+        "id": "m7-s2",
+        "german": "Die Frauen sind dort.",
+        "english": "The women are there.",
+        "wordMeanings": {
+          "Die": "the (plural)",
+          "Frauen": "women",
+          "sind": "are",
+          "dort": "there"
+        }
+      },
+      {
+        "id": "m7-s3",
+        "german": "Die Kinder spielen.",
+        "english": "The children are playing.",
+        "wordMeanings": {
+          "Die": "the (plural)",
+          "Kinder": "children",
+          "spielen": "play"
+        }
+      },
+      {
+        "id": "m7-s4",
+        "german": "Ich habe zwei Hunde.",
+        "english": "I have two dogs.",
+        "wordMeanings": {
+          "Ich": "I",
+          "habe": "have",
+          "zwei": "two",
+          "Hunde": "dogs"
+        }
+      },
+      {
+        "id": "m7-s5",
+        "german": "Wir sehen die Autos.",
+        "english": "We see the cars.",
+        "wordMeanings": {
+          "Wir": "we",
+          "sehen": "see",
+          "die": "the (plural acc)",
+          "Autos": "cars"
+        }
+      },
+      {
+        "id": "m7-s6",
+        "german": "Sind das die Äpfel?",
+        "english": "Are those the apples?",
+        "wordMeanings": {
+          "Sind": "are",
+          "das": "that / those",
+          "die": "the",
+          "Äpfel": "apples"
+        }
+      },
+      {
+        "id": "m7-s7",
+        "german": "Wir haben keine Fragen.",
+        "english": "We have no questions.",
+        "wordMeanings": {
+          "Wir": "we",
+          "haben": "have",
+          "keine": "no (plural acc)",
+          "Fragen": "questions"
+        }
+      },
+      {
+        "id": "m7-s8",
+        "german": "Sie liest viele Bücher.",
+        "english": "She reads many books.",
+        "wordMeanings": {
+          "Sie": "she",
+          "liest": "reads",
+          "viele": "many",
+          "Bücher": "books"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-8",
+    "title": "Chapter 8: Modal Verbs",
+    "description": "Modal verbs (können, müssen, wollen) express ability, necessity, or desire. The second verb goes to the very end of the sentence.",
+    "level": "Advanced",
+    "sentences": [
+      {
+        "id": "m8-s1",
+        "german": "Ich kann schwimmen.",
+        "english": "I can swim.",
+        "wordMeanings": {
+          "Ich": "I",
+          "kann": "can",
+          "schwimmen": "swim"
+        }
+      },
+      {
+        "id": "m8-s2",
+        "german": "Kannst du mir helfen?",
+        "english": "Can you help me?",
+        "wordMeanings": {
+          "Kannst": "can",
+          "du": "you",
+          "mir": "me",
+          "helfen": "help"
+        }
+      },
+      {
+        "id": "m8-s3",
+        "german": "Ich muss gehen.",
+        "english": "I must go.",
+        "wordMeanings": {
+          "Ich": "I",
+          "muss": "must / have to",
+          "gehen": "go"
+        }
+      },
+      {
+        "id": "m8-s4",
+        "german": "Wir müssen arbeiten.",
+        "english": "We have to work.",
+        "wordMeanings": {
+          "Wir": "we",
+          "müssen": "must / have to",
+          "arbeiten": "work"
+        }
+      },
+      {
+        "id": "m8-s5",
+        "german": "Er will einen Kaffee trinken.",
+        "english": "He wants to drink a coffee.",
+        "wordMeanings": {
+          "Er": "he",
+          "will": "wants",
+          "einen": "a (acc masc)",
+          "Kaffee": "coffee",
+          "trinken": "drink"
+        }
+      },
+      {
+        "id": "m8-s6",
+        "german": "Was wollt ihr machen?",
+        "english": "What do you (plural) want to do?",
+        "wordMeanings": {
+          "Was": "what",
+          "wollt": "want",
+          "ihr": "you (plural)",
+          "machen": "do / make"
+        }
+      },
+      {
+        "id": "m8-s7",
+        "german": "Darf ich hier sitzen?",
+        "english": "May I sit here?",
+        "wordMeanings": {
+          "Darf": "may / am allowed to",
+          "ich": "I",
+          "hier": "here",
+          "sitzen": "sit"
+        }
+      },
+      {
+        "id": "m8-s8",
+        "german": "Du sollst das nicht tun.",
+        "english": "You should not do that.",
+        "wordMeanings": {
+          "Du": "you",
+          "sollst": "should",
+          "das": "that",
+          "nicht": "not",
+          "tun": "do"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-9",
+    "title": "Chapter 9: The Dative Case",
+    "description": "The dative case is used for indirect objects and after certain prepositions (aus, bei, mit, nach, seit, von, zu).",
+    "level": "Advanced",
+    "sentences": [
+      {
+        "id": "m9-s1",
+        "german": "Ich gebe dem Mann den Apfel.",
+        "english": "I give the man the apple.",
+        "wordMeanings": {
+          "Ich": "I",
+          "gebe": "give",
+          "dem": "the (dative masc)",
+          "Mann": "man",
+          "den": "the (acc masc)",
+          "Apfel": "apple"
+        }
+      },
+      {
+        "id": "m9-s2",
+        "german": "Hilfst du der Frau?",
+        "english": "Are you helping the woman?",
+        "wordMeanings": {
+          "Hilfst": "help",
+          "du": "you",
+          "der": "the (dative fem)",
+          "Frau": "woman"
+        }
+      },
+      {
+        "id": "m9-s3",
+        "german": "Das Auto gehört dem Kind.",
+        "english": "The car belongs to the child.",
+        "wordMeanings": {
+          "Das": "the",
+          "Auto": "car",
+          "gehört": "belongs to",
+          "dem": "the (dative neuter)",
+          "Kind": "child"
+        }
+      },
+      {
+        "id": "m9-s4",
+        "german": "Ich gehe mit meinem Freund.",
+        "english": "I am going with my friend.",
+        "wordMeanings": {
+          "Ich": "I",
+          "gehe": "go",
+          "mit": "with",
+          "meinem": "my (dative masc)",
+          "Freund": "friend"
+        }
+      },
+      {
+        "id": "m9-s5",
+        "german": "Wir kommen aus der Schweiz.",
+        "english": "We come from Switzerland.",
+        "wordMeanings": {
+          "Wir": "we",
+          "kommen": "come",
+          "aus": "out of / from",
+          "der": "the (dative fem)",
+          "Schweiz": "Switzerland"
+        }
+      },
+      {
+        "id": "m9-s6",
+        "german": "Nach der Arbeit gehe ich nach Hause.",
+        "english": "After work I go home.",
+        "wordMeanings": {
+          "Nach": "after",
+          "der": "the (dative fem)",
+          "Arbeit": "work",
+          "gehe": "go",
+          "ich": "I",
+          "nach": "to",
+          "Hause": "home"
+        }
+      },
+      {
+        "id": "m9-s7",
+        "german": "Wie geht es dir?",
+        "english": "How are you? (How goes it to you?)",
+        "wordMeanings": {
+          "Wie": "how",
+          "geht": "goes",
+          "es": "it",
+          "dir": "to you (dative)"
+        }
+      },
+      {
+        "id": "m9-s8",
+        "german": "Mir geht es gut.",
+        "english": "I am fine. (To me goes it well.)",
+        "wordMeanings": {
+          "Mir": "to me (dative)",
+          "geht": "goes",
+          "es": "it",
+          "gut": "well / good"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-10",
+    "title": "Chapter 10: Separable Verbs",
+    "description": "Many German verbs have a prefix that separates and goes to the end of the sentence (e.g., aufstehen -> ich stehe auf).",
+    "level": "Advanced",
+    "sentences": [
+      {
+        "id": "m10-s1",
+        "german": "Ich stehe früh auf.",
+        "english": "I get up early.",
+        "wordMeanings": {
+          "Ich": "I",
+          "stehe": "stand (stem)",
+          "früh": "early",
+          "auf": "up (prefix)"
+        }
+      },
+      {
+        "id": "m10-s2",
+        "german": "Wann stehst du auf?",
+        "english": "When do you get up?",
+        "wordMeanings": {
+          "Wann": "when",
+          "stehst": "stand",
+          "du": "you",
+          "auf": "up"
+        }
+      },
+      {
+        "id": "m10-s3",
+        "german": "Wir kaufen im Supermarkt ein.",
+        "english": "We shop at the supermarket.",
+        "wordMeanings": {
+          "Wir": "we",
+          "kaufen": "buy (stem)",
+          "im": "in the",
+          "Supermarkt": "supermarket",
+          "ein": "in (prefix)"
+        }
+      },
+      {
+        "id": "m10-s4",
+        "german": "Er ruft seine Mutter an.",
+        "english": "He calls his mother.",
+        "wordMeanings": {
+          "Er": "he",
+          "ruft": "calls",
+          "seine": "his",
+          "Mutter": "mother",
+          "an": "prefix for call"
+        }
+      },
+      {
+        "id": "m10-s5",
+        "german": "Rufst du mich an?",
+        "english": "Are you calling me?",
+        "wordMeanings": {
+          "Rufst": "call",
+          "du": "you",
+          "mich": "me",
+          "an": "prefix"
+        }
+      },
+      {
+        "id": "m10-s6",
+        "german": "Der Zug kommt auf Gleis drei an.",
+        "english": "The train arrives on track three.",
+        "wordMeanings": {
+          "Der": "the",
+          "Zug": "train",
+          "kommt": "comes",
+          "auf": "on",
+          "Gleis": "track",
+          "drei": "three",
+          "an": "prefix for arrive"
+        }
+      },
+      {
+        "id": "m10-s7",
+        "german": "Ich lade dich ein.",
+        "english": "I invite you.",
+        "wordMeanings": {
+          "Ich": "I",
+          "lade": "invite (stem)",
+          "dich": "you",
+          "ein": "prefix for invite"
+        }
+      },
+      {
+        "id": "m10-s8",
+        "german": "Machen Sie bitte die Tür zu.",
+        "english": "Please close the door.",
+        "wordMeanings": {
+          "Machen": "make (stem)",
+          "Sie": "you (formal)",
+          "bitte": "please",
+          "die": "the",
+          "Tür": "door",
+          "zu": "prefix for close"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-11",
+    "title": "Chapter 11: The Perfect Tense",
+    "description": "The spoken past tense in German uses 'haben' or 'sein' with the past participle at the end of the sentence.",
+    "level": "Advanced",
+    "sentences": [
+      {
+        "id": "m11-s1",
+        "german": "Ich habe einen Apfel gegessen.",
+        "english": "I have eaten an apple. / I ate an apple.",
+        "wordMeanings": {
+          "Ich": "I",
+          "habe": "have",
+          "einen": "an",
+          "Apfel": "apple",
+          "gegessen": "eaten"
+        }
+      },
+      {
+        "id": "m11-s2",
+        "german": "Was hast du gemacht?",
+        "english": "What did you do?",
+        "wordMeanings": {
+          "Was": "what",
+          "hast": "have",
+          "du": "you",
+          "gemacht": "made / done"
+        }
+      },
+      {
+        "id": "m11-s3",
+        "german": "Wir sind nach Berlin gefahren.",
+        "english": "We drove to Berlin.",
+        "wordMeanings": {
+          "Wir": "we",
+          "sind": "are (auxiliary for motion)",
+          "nach": "to",
+          "Berlin": "Berlin",
+          "gefahren": "driven"
+        }
+      },
+      {
+        "id": "m11-s4",
+        "german": "Ist er gestern gekommen?",
+        "english": "Did he come yesterday?",
+        "wordMeanings": {
+          "Ist": "is (auxiliary)",
+          "er": "he",
+          "gestern": "yesterday",
+          "gekommen": "come"
+        }
+      },
+      {
+        "id": "m11-s5",
+        "german": "Ich habe das Buch gelesen.",
+        "english": "I read the book.",
+        "wordMeanings": {
+          "Ich": "I",
+          "habe": "have",
+          "das": "the",
+          "Buch": "book",
+          "gelesen": "read (past participle)"
+        }
+      },
+      {
+        "id": "m11-s6",
+        "german": "Wir haben Kaffee getrunken.",
+        "english": "We drank coffee.",
+        "wordMeanings": {
+          "Wir": "we",
+          "haben": "have",
+          "Kaffee": "coffee",
+          "getrunken": "drunk"
+        }
+      },
+      {
+        "id": "m11-s7",
+        "german": "Wo bist du gewesen?",
+        "english": "Where have you been?",
+        "wordMeanings": {
+          "Wo": "where",
+          "bist": "are (auxiliary)",
+          "du": "you",
+          "gewesen": "been"
+        }
+      },
+      {
+        "id": "m11-s8",
+        "german": "Ich habe ihn gesehen.",
+        "english": "I saw him.",
+        "wordMeanings": {
+          "Ich": "I",
+          "habe": "have",
+          "ihn": "him",
+          "gesehen": "seen"
+        }
+      }
+    ]
+  },
+  {
+    "id": "module-12",
+    "title": "Chapter 12: Question Words (W-Fragen)",
+    "description": "Essential German question words: wer, was, wann, wo, woher, wohin, warum, wie.",
+    "level": "Advanced",
+    "sentences": [
+      {
+        "id": "m12-s1",
+        "german": "Wer ist das?",
+        "english": "Who is that?",
+        "wordMeanings": {
+          "Wer": "who",
+          "ist": "is",
+          "das": "that"
+        }
+      },
+      {
+        "id": "m12-s2",
+        "german": "Was ist das?",
+        "english": "What is that?",
+        "wordMeanings": {
+          "Was": "what",
+          "ist": "is",
+          "das": "that"
+        }
+      },
+      {
+        "id": "m12-s3",
+        "german": "Wann kommst du?",
+        "english": "When are you coming?",
+        "wordMeanings": {
+          "Wann": "when",
+          "kommst": "come",
+          "du": "you"
+        }
+      },
+      {
+        "id": "m12-s4",
+        "german": "Wo wohnst du?",
+        "english": "Where do you live?",
+        "wordMeanings": {
+          "Wo": "where",
+          "wohnst": "live",
+          "du": "you"
+        }
+      },
+      {
+        "id": "m12-s5",
+        "german": "Wohin gehst du?",
+        "english": "Where are you going (to)?",
+        "wordMeanings": {
+          "Wohin": "where to",
+          "gehst": "go",
+          "du": "you"
+        }
+      },
+      {
+        "id": "m12-s6",
+        "german": "Woher kommst du?",
+        "english": "Where do you come from?",
+        "wordMeanings": {
+          "Woher": "where from",
+          "kommst": "come",
+          "du": "you"
+        }
+      },
+      {
+        "id": "m12-s7",
+        "german": "Warum bist du hier?",
+        "english": "Why are you here?",
+        "wordMeanings": {
+          "Warum": "why",
+          "bist": "are",
+          "du": "you",
+          "hier": "here"
+        }
+      },
+      {
+        "id": "m12-s8",
+        "german": "Wie viel kostet das?",
+        "english": "How much does that cost?",
+        "wordMeanings": {
+          "Wie": "how",
+          "viel": "much",
+          "kostet": "costs",
+          "das": "that"
+        }
+      }
+    ]
+  }
+]
